@@ -1,0 +1,46 @@
+## AI Chatbot with Text-to-Speech and Voice Input
+
+**Overview:**
+
+This Python application creates a chatbot with a user-friendly interface. It leverages OpenAI's language model for generating text responses, TTS for speech output, and speech recognition for voice input. Users can interact with the chatbot through text or voice, selecting from various voice options and predefined conversation scenarios.
+
+**Dependencies:**
+
+* customtkinter
+* openai
+* TTS
+* sounddevice
+* numpy
+* threading
+* torch
+* speech_recognition
+* json
+
+**Installation:**
+
+1. Clone the repository or download the code.
+2. Install the required dependencies using `pip install -r requirements.txt`.
+3. Create a file named `api_key.txt` and add your OpenAI API key to it.
+4. Replace `"add api key"` in the code with the actual content of `api_key.txt`.
+
+**Usage:**
+
+1. Run the Python script.
+2. The chatbot interface will appear.
+3. Type your message in the input field or use the voice input button.
+4. Select a voice and scenario for the chatbot's response.
+
+**Customization:**
+
+* Modify the `scenarios.json` file to add or change conversation scenarios.
+* Customize the user interface by modifying the customtkinter elements.
+* Improve speech recognition accuracy by training a custom model.
+* Expand the chatbot's capabilities by integrating additional features.
+
+**Note:**
+
+* Ensure you have a valid OpenAI API key.
+* The TTS model might require additional setup or downloads.
+* This code is provided as an example and may require adjustments for specific use cases.
+
+**Enjoy your AI chatbot experience!**
